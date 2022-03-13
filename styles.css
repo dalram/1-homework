@@ -7,19 +7,23 @@ div {
     border: solid 1px;
     background-color: bisque;
     display: inline-block;
-    margin: 10px;
+    margin: 10px; 
 }
 nav,
 section {
     border: solid 1px;
     margin: 5px;
+    width: 99%;
+    align-items: center;
 }
 nav {
     background-color: rgb(84, 206, 36);
+    float: left;
 }
 section {
     background-color: coral;
     display: inline-block;
+    float: left;
 }
 .nav-right,
 .section-right {
@@ -28,4 +32,38 @@ section {
 }
 .nav-left {
     width: 20%;
+}
+.section-left {
+    width: 45%;
+}
+.lefty {
+    width: 70%;
+    background-color: yellow;
+}
+.righty,
+.bottom-right {
+    width: 70%;
+    float: right;
+    background-color: mediumseagreen;
+}
+.left-one,
+.right-one {
+    width: 40%;
+    text-align: center;
+    background-color: firebrick;
+}
+.right-one,
+.bottom-right {
+    float: right;
+}
+.bottom-left {
+    width: 20%;
+    padding: 6%; 
+}
+.bottom-right {
+    width: 20%;
+    padding: 6%;
+}
+p {
+    text-align: center;
 }
