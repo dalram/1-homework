@@ -23,7 +23,6 @@ nav {
 section {
     background-color: coral;
     display: inline-block;
-    float: left;
 }
 .nav-right,
 .section-right {
