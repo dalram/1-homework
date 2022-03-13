@@ -1,0 +1,31 @@
+main {
+    width: 100%;
+    border: solid 1px;
+    display: inline-block;
+}
+div {
+    border: solid 1px;
+    background-color: bisque;
+    display: inline-block;
+    margin: 10px;
+}
+nav,
+section {
+    border: solid 1px;
+    margin: 5px;
+}
+nav {
+    background-color: rgb(84, 206, 36);
+}
+section {
+    background-color: coral;
+    display: inline-block;
+}
+.nav-right,
+.section-right {
+    float: right;
+    width: 45%;
+}
+.nav-left {
+    width: 20%;
+}

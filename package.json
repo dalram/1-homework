@@ -1,0 +1,19 @@
+{
+  "name": "1-homework",
+  "version": "1.0.0",
+  "description": "HTML and CSS homework",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --port=3212 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dead-server": "^1.0.6"
+  }
+}
