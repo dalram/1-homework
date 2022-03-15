@@ -1,6 +1,7 @@
 main {
     width: 100%;
     display:inline-block;
+    border: solid 1px;
 }
 div {
     border: solid 1px;
