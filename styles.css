@@ -12,7 +12,7 @@ div {
 nav,
 section {
     border: solid 1px;
-    width: 99%;
+    width: calc(100% - 12px);
     margin: 5px;
 }
 nav {
